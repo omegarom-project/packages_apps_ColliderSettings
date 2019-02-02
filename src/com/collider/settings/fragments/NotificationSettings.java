@@ -1,4 +1,4 @@
-package com.nitrogen.settings.fragments;
+package com.collider.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -18,6 +18,6 @@ public class NotificationSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.OMEGA;
     }
 }
