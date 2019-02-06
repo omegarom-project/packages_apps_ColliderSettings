@@ -17,6 +17,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/collider_settings_title" >
 
+        <!-- Styles -->
+        <PreferenceScreen
+            android:key="style"
+            android:icon="@drawable/ic_theme_light_dark"
+            android:title="@string/style_title"
+            android:summary="@string/style_summary"
+            android:fragment="com.collider.settings.fragments.ui.ThemeSettings" />
+
         <!-- Status Bar -->
         <Preference
             android:key="statusbar_category"
