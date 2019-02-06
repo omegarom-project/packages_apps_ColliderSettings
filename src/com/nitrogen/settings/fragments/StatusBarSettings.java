@@ -1,4 +1,4 @@
-package com.collider.settings.fragments;
+package com.nitrogen.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -55,7 +55,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.OMEGA;
+        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 
 }

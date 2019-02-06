@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.collider.settings.preferences;
+package com.nitrogen.settings.preferences;
 
 import android.app.Activity;
 import android.content.Context;

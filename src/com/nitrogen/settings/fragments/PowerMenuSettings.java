@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.collider.settings.fragments;
+package com.nitrogen.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -64,7 +64,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.OMEGA;
+        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 
 }

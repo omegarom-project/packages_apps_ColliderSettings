@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.collider.settings.fragments;
+package com.nitrogen.settings.fragments;
 
 import java.util.ArrayList;
 
@@ -54,6 +54,6 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.OMEGA;
+        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 }

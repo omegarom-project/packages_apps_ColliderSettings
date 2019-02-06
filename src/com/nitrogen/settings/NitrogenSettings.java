@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.collider.settings;
+package com.nitrogen.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +29,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class ColliderSettings extends SettingsPreferenceFragment {
+public class NitrogenSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.collider_settings);
+        addPreferencesFromResource(R.xml.nitrogen_settings);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.OMEGA;
+        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

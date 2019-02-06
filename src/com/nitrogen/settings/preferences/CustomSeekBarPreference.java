@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.collider.settings.preferences;
+package com.nitrogen.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
