@@ -20,8 +20,6 @@ package com.collider.settings;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.app.Activity;
-import android.content.ContentResolver;
-import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -30,8 +28,6 @@ import android.preference.Preference;
 import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
-
-import com.collider.settings.fragments.ui.ThemeSettings;
 
 public class ColliderSettings extends SettingsPreferenceFragment {
 
@@ -75,10 +71,4 @@ public class ColliderSettings extends SettingsPreferenceFragment {
         }
         activity.setRequestedOrientation(frozenRotation);
     }
-
-    public static void reset(Context mContext) {
-        ContentResolver resolver = mContext.getContentResolver();
-        ThemeSettings.reset(mContext);
-    }
-
 }
