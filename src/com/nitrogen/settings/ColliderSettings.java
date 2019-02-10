@@ -20,6 +20,8 @@ package com.nitrogen.settings;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -29,7 +31,9 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class NitrogenSettings extends SettingsPreferenceFragment {
+import com.nitrogen.settings.fragments.ui.ThemeSettings;
+
+public class ColliderSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -40,7 +44,7 @@ public class NitrogenSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.OMEGA;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
@@ -71,4 +75,10 @@ public class NitrogenSettings extends SettingsPreferenceFragment {
         }
         activity.setRequestedOrientation(frozenRotation);
     }
+
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        ThemeSettings.reset(mContext);
+    }
+
 }
