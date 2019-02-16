@@ -170,6 +170,9 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
 
         Button AccentDarkIndigo = mView.findViewById(R.id.AccentDarkIndigo);
         setAccent("31", AccentDarkIndigo);
+
+        Button AccentYandex = mView.findViewById(R.id.AccentYandex);
+        setAccent("32", AccentYandex);
     }
 
     @Override
