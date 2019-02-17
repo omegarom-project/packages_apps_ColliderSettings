@@ -29,8 +29,11 @@
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
-            android:fragment="com.nitrogen.settings.fragments.StatusBarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:icon="@drawable/ic_settings_statusbar">
+        <intent
+            android:action="org.lineageos.lineageparts.STATUS_BAR_SETTINGS"
+            android:category="android.intent.category.DEFAULT" />
+        </Preference>
 
         <!-- Quick Settings panel -->
         <Preference
@@ -43,8 +46,12 @@
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
-            android:fragment="com.nitrogen.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
+            android:icon="@drawable/ic_settings_buttons">
+        <intent
+            android:action="org.lineageos.lineageparts.BUTTON_SETTINGS"
+ 	    android:category="android.intent.category.DEFAULT" />
+        </Preference>
+
 
         <!-- Navigation Bar -->
         <Preference
@@ -56,15 +63,16 @@
         <!-- Gestures -->
         <Preference
             android:key="gestures_category"
-            android:title="@string/gestures_title" 
-            android:fragment="com.nitrogen.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+            android:title="@string/gesture_preference_title" 
+            android:fragment="com.android.settings.gestures.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"
+            settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
-            android:fragment="com.nitrogen.settings.fragments.LockScreenSettings"
+            android:fragment="com.syberia.settings.fragments.PanelsSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
         <!-- Power Menu -->
