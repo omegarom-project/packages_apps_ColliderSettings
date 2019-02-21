@@ -138,6 +138,8 @@ public class ThemeSettings extends SettingsPreferenceFragment implements Indexab
                 Settings.System.BERRY_DARK_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.BERRY_NOTIFICATION_STYLE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.BERRY_QS_TILE_STYLE, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
