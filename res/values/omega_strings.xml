@@ -33,9 +33,5 @@
     <string name="style_notification_light">Light</string>
     <string name="style_notification_dark">Deep Grey</string>
     <string name="style_notification_black">Amoled Black</string>
-
-    <!-- Icon Packs in Recents -->
-    <string name="recents_icon_pack_title">Icon pack</string>
-    <string name="recents_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
 </resources>
 

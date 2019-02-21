@@ -18,10 +18,4 @@
     android:title="@string/recents_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
-        android:key="recents_icon_pack"
-        android:icon="@drawable/ic_android_head"
-        android:title="@string/recents_icon_pack_title"
-        android:summary="@string/recents_icon_pack_summary" />
-
 </PreferenceScreen>
