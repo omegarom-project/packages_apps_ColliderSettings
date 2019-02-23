@@ -56,6 +56,7 @@
     <string name="qstile_teardrop">Teardrop</string>
     <string name="qstile_wavey">Wavey</string>
     <string name="qstile_cookie">Cookie</string>
+    <string name="qstile_hexagon_dualtone">Dual-Toned Hexagon</string>
 
     <!-- QS header styles -->
     <string name="qs_header_style_title">Quick settings header style</string>

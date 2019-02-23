@@ -75,6 +75,7 @@
         <item>@string/qstile_teardrop</item>
         <item>@string/qstile_wavey</item>
         <item>@string/qstile_cookie</item>
+        <item>@string/qstile_hexagon_dualtone</item>
     </string-array>
 
     <string-array name="qs_selector_values" translatable="false">
@@ -98,6 +99,7 @@
         <item>17</item>
         <item>18</item>
         <item>19</item>
+        <item>20</item>
     </string-array>
 
     <!-- QS header styles -->
