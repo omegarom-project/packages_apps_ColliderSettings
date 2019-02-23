@@ -72,7 +72,7 @@
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
-            android:fragment="com.android.settings.security.screenlock.ScreenLockSettings"
+            android:fragment="com.android.settings.security.LockscreenDashboardFragment"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
         <!-- Power Menu -->
